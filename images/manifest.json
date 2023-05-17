@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 4608,
+    "id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246/canvas/",
+    "label" : {
+      "none" : [ "IMG_20230516_161300246" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 144,
+              "height" : 108
+            }, {
+              "width" : 288,
+              "height" : 216
+            }, {
+              "width" : 576,
+              "height" : 432
+            }, {
+              "width" : 1152,
+              "height" : 864
+            }, {
+              "width" : 2304,
+              "height" : 1728
+            }, {
+              "width" : 4608,
+              "height" : 3456
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4608,
+            "@id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3456
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4608,
+          "id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3456
+        },
+        "target" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161300246/canvas/"
+      } ]
+    } ],
+    "height" : 3456
+  }, {
+    "width" : 4608,
     "id" : "https://leobazzurro.github.io/FlagBook/images/IMG_20230516_161455813/canvas/",
     "label" : {
       "none" : [ "IMG_20230516_161455813" ]
